@@ -1,0 +1,13 @@
+server:
+  port: 8862
+  context-path : /hrcp-account
+
+spring :  
+  profiles : 
+    active : dev
+  application:
+    name: service-template
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
